@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mSettings"
+        android:title="@string/ajustes"
+        android:orderInCategory = "1">
+    </item>
+    <item
+        android:id="@+id/mExit"
+        android:title="@string/salir"
+        android:orderInCategory = "2">
+    </item>
+
+    <item
+        android:id="@+id/iConexión"
+        android:title="Name"
+        android:orderInCategory = "4"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_power_off_24">
+    </item>
+</menu>
